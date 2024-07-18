@@ -7,7 +7,8 @@
           <v-col cols="12" sm="2">
             <v-row>
               <v-col cols="12" sm="12">
-                <v-expansion-panels v-model="panel">
+
+                <v-expansion-panels>
                   <v-expansion-panel class="co">
                     <v-expansion-panel-title class="text-white bg-orange">
                       <v-icon icon="mdi mdi-menu" class="ml-n4 mr-1"></v-icon>
@@ -29,6 +30,7 @@
                     </v-expansion-panel-text>
                   </v-expansion-panel>
                 </v-expansion-panels>
+                
               </v-col>
               <v-col cols="12" sm="12">
                 <v-card class="co">
